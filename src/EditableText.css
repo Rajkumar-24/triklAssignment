@@ -1,0 +1,34 @@
+/* .editable-text {
+  position: fixed;
+  top: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 1px solid #ddd;
+  padding: 10px;
+  user-select: none;
+  z-index: 999;
+} */
+.editable-text-container {
+  position: absolute;
+  cursor: grab;
+  background-color: transparent; /* Set the background color to transparent */
+  user-select: none;
+  color: aliceblue;
+  margin: 10%;
+}
+.editable-text-textarea {
+  width: 100%;
+  height: 100%;
+  border: 1px;
+  border-bottom: 1px solid rgb(255, 255, 255);
+  background-color: transparent; /* Set the background color to transparent */
+  resize: none;
+  outline: none;
+  font-size: 22px;
+  line-height: 1.4;
+  user-select: none;
+  overflow: hidden;
+  color: white;
+  text-align: center;
+}
