@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/triklAssignment/static/css/main.32f4b34e.css",
+    "main.js": "/triklAssignment/static/js/main.e09b1133.js",
+    "static/js/787.5a3b1925.chunk.js": "/triklAssignment/static/js/787.5a3b1925.chunk.js",
+    "index.html": "/triklAssignment/index.html",
+    "main.32f4b34e.css.map": "/triklAssignment/static/css/main.32f4b34e.css.map",
+    "main.e09b1133.js.map": "/triklAssignment/static/js/main.e09b1133.js.map",
+    "787.5a3b1925.chunk.js.map": "/triklAssignment/static/js/787.5a3b1925.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.32f4b34e.css",
+    "static/js/main.e09b1133.js"
+  ]
+}
