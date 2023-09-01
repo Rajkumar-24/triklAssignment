@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import EditableText from "./EditableText";
 import "./ImageComponent.css";
+import GridLayout from "react-grid-layout";
 
 const ImageComponent = () => {
   const [imageUrl, setImageUrl] = useState("");
@@ -39,7 +40,7 @@ const ImageComponent = () => {
               <EditableText
                 key={index}
                 text={overlay.text}
-                position={overlay.position}
+                position={{ x: 100, y: 100 }}
               />
             ))}
           </div>
@@ -51,8 +52,21 @@ const ImageComponent = () => {
               onChange={(e) => setInputText(e.target.value)}
               placeholder="Enter text"
             />
-            <button className="add-text-button" onClick={addTextOverlay}>
+            <button
+              className="add-text-button"
+              onClick={() => {
+                addTextOverlay();
+              }}
+            >
               Add Text
+            </button>
+            <button
+              className="add-text-button"
+              onClick={() => {
+                fetchImage();
+              }}
+            >
+              Fetch Image
             </button>
           </div>
         </>
