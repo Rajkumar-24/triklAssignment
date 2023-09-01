@@ -1,8 +1,17 @@
 # Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+##Video
+
+https://github.com/Rajkumar-24/triklAssignment/assets/76393763/519dfe52-af3d-43f6-8f2d-6b4b9db22ad7
+
+
+
 
 ## Available Scripts
+
+1. Clone the repository to your local machine:
+
+2. Navigate to the project directory:
 
 In the project directory, you can run:
 
